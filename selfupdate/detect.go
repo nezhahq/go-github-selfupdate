@@ -180,6 +180,7 @@ func (up *Updater) DetectVersion(slug string, version string) (release *Release,
 		&publishedAt,
 		repo[0],
 		repo[1],
+		asset.GetName(),
 	}
 
 	if up.validator != nil {

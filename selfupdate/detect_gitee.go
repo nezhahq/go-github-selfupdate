@@ -175,6 +175,7 @@ func (up *GiteeUpdater) DetectVersion(slug string, version string) (release *Rel
 		&publishedAt,
 		repo[0],
 		repo[1],
+		asset.Name,
 	}
 
 	if up.validator != nil {

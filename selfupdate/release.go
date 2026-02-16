@@ -30,4 +30,6 @@ type Release struct {
 	RepoOwner string
 	// RepoName is the name of the repository of the release
 	RepoName string
+	// AssetName is the original filename of the asset (e.g. "foo_linux_amd64.gz")
+	AssetName string
 }
